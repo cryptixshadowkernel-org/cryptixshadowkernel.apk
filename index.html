@@ -1,103 +1,215 @@
-# 👑 Cryptix Shadow Kernel - APK Collection
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cryptix Shadow Kernel - APK Collection</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: Georgia, 'Times New Roman', serif;
+    background: linear-gradient(135deg, #f5e8d0 0%, #e8d5a8 50%, #d4be8a 100%);
+    min-height: 100vh;
+    padding: 20px;
+    color: #0d0d1a;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: rgba(255,255,255,0.3);
+    border: 3px solid #c8973a;
+    border-radius: 30px;
+    padding: 40px 25px;
+    box-shadow: 0 10px 40px rgba(154,111,34,0.2);
+  }
+  .header { text-align: center; margin-bottom: 30px; }
+  .crown { font-size: 60px; margin-bottom: 10px; filter: drop-shadow(0 4px 8px rgba(154,111,34,0.4)); }
+  h1 {
+    font-size: 36px; font-weight: 900; letter-spacing: 2px;
+    color: #0d0d1a; margin-bottom: 5px;
+  }
+  .subtitle {
+    font-size: 16px; color: #9a6f22; font-weight: 700;
+    letter-spacing: 3px; text-transform: uppercase;
+  }
+  .divider {
+    height: 3px;
+    background: linear-gradient(90deg, transparent, #c8973a, transparent);
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 2px;
+  }
+  .apk-list { display: flex; flex-direction: column; gap: 15px; margin: 25px 0; }
+  .apk-card {
+    background: linear-gradient(135deg, #f5e8d0, #e8d5a8);
+    border: 2px solid #c8973a;
+    border-radius: 18px;
+    padding: 18px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(154,111,34,0.15);
+  }
+  .apk-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(154,111,34,0.35);
+    border-color: #9a6f22;
+  }
+  .apk-info { display: flex; align-items: center; gap: 15px; flex: 1; }
+  .apk-icon {
+    width: 50px; height: 50px;
+    background: linear-gradient(135deg, #d4a04a, #9a6f22);
+    border-radius: 12px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 26px;
+    box-shadow: 0 3px 10px rgba(154,111,34,0.4);
+    flex-shrink: 0;
+  }
+  .apk-text { flex: 1; }
+  .apk-name {
+    font-size: 17px; font-weight: 900; color: #0d0d1a;
+    margin-bottom: 3px; letter-spacing: 0.5px;
+  }
+  .apk-size { font-size: 13px; color: #9a6f22; font-weight: 600; }
+  .download-btn {
+    background: linear-gradient(135deg, #d4a04a, #9a6f22);
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(154,111,34,0.4);
+    white-space: nowrap;
+  }
+  .download-btn:hover {
+    background: linear-gradient(135deg, #e8c87a, #c8973a);
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(154,111,34,0.6);
+  }
+  .info-section {
+    background: rgba(255,255,255,0.4);
+    border-left: 5px solid #c8973a;
+    border-radius: 12px;
+    padding: 18px 20px;
+    margin-top: 25px;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+  .info-section h3 {
+    color: #9a6f22;
+    font-size: 16px;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+  }
+  .info-section ol { padding-left: 20px; color: #0d0d1a; }
+  .info-section li { margin-bottom: 5px; }
+  .footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 13px;
+    color: #9a6f22;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  .footer strong { color: #0d0d1a; }
+  @media (max-width: 500px) {
+    h1 { font-size: 26px; }
+    .crown { font-size: 45px; }
+    .apk-card { flex-direction: column; gap: 12px; text-align: center; }
+    .apk-info { flex-direction: column; gap: 10px; }
+    .download-btn { width: 100%; text-align: center; }
+  }
+</style>
+</head>
+<body>
 
-![Version](https://img.shields.io/badge/Version-1.0.0-gold?style=for-the-badge)
-![APKs](https://img.shields.io/badge/APKs-5-blue?style=for-the-badge)
-![Website](https://img.shields.io/badge/Website-Live-green?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-orange?style=for-the-badge)
+<div class="container">
+  <div class="header">
+    <div class="crown">👑</div>
+    <h1>Cryptix Shadow Kernel</h1>
+    <div class="subtitle">APK Collection v1.0.0</div>
+    <div class="divider"></div>
+  </div>
 
-> **Cryptix Shadow Kernel** — A curated collection of powerful Android APKs by CSK Developer.
+  <div class="apk-list">
 
----
+    <div class="apk-card">
+      <div class="apk-info">
+        <div class="apk-icon">🛍️</div>
+        <div class="apk-text">
+          <div class="apk-name">BASIM_STORE.apk</div>
+          <div class="apk-size">5.51 MB • E-commerce App</div>
+        </div>
+      </div>
+      <a href="https://github.com/cryptixshadowkernel-org/cryptixshadowkernel.apk/releases/download/v1.0.0/BASIM_STORE.apk" class="download-btn">⬇ Download</a>
+    </div>
 
-## 🌐 Live Website
+    <div class="apk-card">
+      <div class="apk-info">
+        <div class="apk-icon">🛡️</div>
+        <div class="apk-text">
+          <div class="apk-name">BASIM_STORE_ADMIN.apk</div>
+          <div class="apk-size">6.00 MB • Admin Panel</div>
+        </div>
+      </div>
+      <a href="https://github.com/cryptixshadowkernel-org/cryptixshadowkernel.apk/releases/download/v1.0.0/BASIM_STORE_ADMIN.apk" class="download-btn">⬇ Download</a>
+    </div>
 
-**👉 [https://cryptixshadowkernel-org.github.io/cryptixshadowkernel.apk/](https://cryptixshadowkernel-org.github.io/cryptixshadowkernel.apk/)**
+    <div class="apk-card">
+      <div class="apk-info">
+        <div class="apk-icon">⚙️</div>
+        <div class="apk-text">
+          <div class="apk-name">CSK4_ADMIN.apk</div>
+          <div class="apk-size">4.02 MB • Admin Utility</div>
+        </div>
+      </div>
+      <a href="https://github.com/cryptixshadowkernel-org/cryptixshadowkernel.apk/releases/download/v1.0.0/CSK4_ADMIN.apk" class="download-btn">⬇ Download</a>
+    </div>
 
-Ek hi page par saare APKs, with beautiful download buttons!
+    <div class="apk-card">
+      <div class="apk-info">
+        <div class="apk-icon">💬</div>
+        <div class="apk-text">
+          <div class="apk-name">CSK4_CHAT.apk</div>
+          <div class="apk-size">4.01 MB • Chat App</div>
+        </div>
+      </div>
+      <a href="https://github.com/cryptixshadowkernel-org/cryptixshadowkernel.apk/releases/download/v1.0.0/CSK4_CHAT.apk" class="download-btn">⬇ Download</a>
+    </div>
 
----
+    <div class="apk-card">
+      <div class="apk-info">
+        <div class="apk-icon">📥</div>
+        <div class="apk-text">
+          <div class="apk-name">csk4_downloader.apk</div>
+          <div class="apk-size">3.75 MB • File Downloader</div>
+        </div>
+      </div>
+      <a href="https://github.com/cryptixshadowkernel-org/cryptixshadowkernel.apk/releases/download/v1.0.0/csk4_downloader.apk" class="download-btn">⬇ Download</a>
+    </div>
 
-## 📥 Download APKs
+  </div>
 
-| # | APK | Size | Description | Download |
-|---|-----|------|-------------|----------|
-| 1 | **BASIM_STORE.apk** | 5.51 MB | Basim Store - E-commerce App | [⬇️ Download](https://github.com/cryptixshadowkernel-org/cryptixshadowkernel.apk/releases/download/v1.0.0/BASIM_STORE.apk) |
-| 2 | **BASIM_STORE_ADMIN.apk** | 6.00 MB | Basim Store Admin Panel | [⬇️ Download](https://github.com/cryptixshadowkernel-org/cryptixshadowkernel.apk/releases/download/v1.0.0/BASIM_STORE_ADMIN.apk) |
-| 3 | **CSK4_ADMIN.apk** | 4.02 MB | CSK4 Admin Utility | [⬇️ Download](https://github.com/cryptixshadowkernel-org/cryptixshadowkernel.apk/releases/download/v1.0.0/CSK4_ADMIN.apk) |
-| 4 | **CSK4_CHAT.apk** | 4.01 MB | CSK4 Chat Application | [⬇️ Download](https://github.com/cryptixshadowkernel-org/cryptixshadowkernel.apk/releases/download/v1.0.0/CSK4_CHAT.apk) |
-| 5 | **csk4_downloader.apk** | 3.75 MB | File Downloader Utility | [⬇️ Download](https://github.com/cryptixshadowkernel-org/cryptixshadowkernel.apk/releases/download/v1.0.0/csk4_downloader.apk) |
+  <div class="info-section">
+    <h3>⚙️ Installation Guide</h3>
+    <ol>
+      <li>Download the APK you want.</li>
+      <li>Enable <strong>"Install from Unknown Sources"</strong> in Settings → Security.</li>
+      <li>Open the downloaded APK file.</li>
+      <li>Tap <strong>"Install"</strong> and wait.</li>
+      <li>Launch the app and enjoy!</li>
+    </ol>
+  </div>
 
----
+  <div class="footer">
+    Made with ❤️ by <strong>CSK Developer</strong><br>
+    © 2026 Cryptix Shadow Kernel
+  </div>
+</div>
 
-## 📖 About
-
-| APK | Purpose |
-|-----|---------|
-| 🛍️ **BASIM_STORE** | E-commerce store app (WebView based) |
-| 🛡️ **BASIM_STORE_ADMIN** | Admin panel for Basim Store |
-| ⚙️ **CSK4_ADMIN** | CSK4 Admin utility app |
-| 💬 **CSK4_CHAT** | Real-time chat application |
-| 📥 **csk4_downloader** | File downloader utility |
-
----
-
-## ⚙️ Requirements
-
-| Requirement | Details |
-|-------------|---------|
-| **Android Version** | 8.0 (Oreo) or higher |
-| **Storage** | 50 MB free space |
-| **Internet** | Required for web-based apps |
-| **Architecture** | ARM64 / ARMv7 |
-
----
-
-## 🚀 Installation Guide
-
-1. **Download** the APK you want from the table above or from the [website](https://cryptixshadowkernel-org.github.io/cryptixshadowkernel.apk/).
-2. **Enable** "Install from Unknown Sources":
-   - Settings → Security → Unknown Sources ✅
-3. **Open** the downloaded APK file.
-4. **Tap** "Install" and wait for completion.
-5. **Launch** the app and enjoy!
-
----
-
-## 🔗 Quick Links
-
-| Link | URL |
-|------|-----|
-| 🌐 **Website** | [cryptixshadowkernel-org.github.io/cryptixshadowkernel.apk](https://cryptixshadowkernel-org.github.io/cryptixshadowkernel.apk/) |
-| 📦 **All Releases** | [github.com/cryptixshadowkernel-org/cryptixshadowkernel.apk/releases](https://github.com/cryptixshadowkernel-org/cryptixshadowkernel.apk/releases) |
-| 🐛 **Report Bug** | [Open an Issue](https://github.com/cryptixshadowkernel-org/cryptixshadowkernel.apk/issues) |
-
----
-
-## ⚠️ Disclaimer
-
-> These APKs are provided **as-is** for educational and personal use only.
-> The developer is **not responsible** for any damage, data loss, or issues caused by improper usage.
-> Use at your own risk.
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🌟 Show Your Support
-
-If you like these APKs, please:
-
-- ⭐ **Star** this repository
-- 🍴 **Fork** it
-- 📢 **Share** it with your friends
-
----
-
-<p align="center">
-  <b>Made with ❤️ by CSK Developer</b><br>
-  <i>© 2026 Cryptix Shadow Kernel. All rights reserved.</i>
-</p>
+</body>
+</html>

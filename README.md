@@ -1,32 +1,43 @@
-# Cryptix Shadow Kernel APK
+# 👑 Cryptix Shadow Kernel - APK Collection
 
-![Cryptix Shadow Kernel](https://img.shields.io/badge/Version-1.0.0-gold?style=for-the-badge&logo=android)
-![Size](https://img.shields.io/badge/Size-6.00_MB-blue?style=for-the-badge)
-![Downloads](https://img.shields.io/badge/Downloads-Free-green?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-1.0.0-gold?style=for-the-badge)
+![APKs](https://img.shields.io/badge/APKs-5-blue?style=for-the-badge)
+![Website](https://img.shields.io/badge/Website-Live-green?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-orange?style=for-the-badge)
 
-> **Cryptix Shadow Kernel** — Advanced Android Kernel & Utility APK for power users.
+> **Cryptix Shadow Kernel** — A curated collection of powerful Android APKs by CSK Developer.
 
 ---
 
-## 📥 Download
+## 🌐 Live Website
 
-| APK | Version | Size | Link |
-|-----|---------|------|------|
-| **Cryptix Shadow Kernel** | v1.0.0 | 6.00 MB | [⬇️ Download Now](https://github.com/YOUR-USERNAME/cryptixshadowkernel/raw/main/cryptixshadowkernel.apk) |
+**👉 [https://cryptixshadowkernel-org.github.io/cryptixshadowkernel.apk/](https://cryptixshadowkernel-org.github.io/cryptixshadowkernel.apk/)**
 
-> **Note:** `YOUR-USERNAME` ki jagah apna GitHub username daalein.
+Ek hi page par saare APKs, with beautiful download buttons!
+
+---
+
+## 📥 Download APKs
+
+| # | APK | Size | Description | Download |
+|---|-----|------|-------------|----------|
+| 1 | **BASIM_STORE.apk** | 5.51 MB | Basim Store - E-commerce App | [⬇️ Download](https://github.com/cryptixshadowkernel-org/cryptixshadowkernel.apk/releases/download/v1.0.0/BASIM_STORE.apk) |
+| 2 | **BASIM_STORE_ADMIN.apk** | 6.00 MB | Basim Store Admin Panel | [⬇️ Download](https://github.com/cryptixshadowkernel-org/cryptixshadowkernel.apk/releases/download/v1.0.0/BASIM_STORE_ADMIN.apk) |
+| 3 | **CSK4_ADMIN.apk** | 4.02 MB | CSK4 Admin Utility | [⬇️ Download](https://github.com/cryptixshadowkernel-org/cryptixshadowkernel.apk/releases/download/v1.0.0/CSK4_ADMIN.apk) |
+| 4 | **CSK4_CHAT.apk** | 4.01 MB | CSK4 Chat Application | [⬇️ Download](https://github.com/cryptixshadowkernel-org/cryptixshadowkernel.apk/releases/download/v1.0.0/CSK4_CHAT.apk) |
+| 5 | **csk4_downloader.apk** | 3.75 MB | File Downloader Utility | [⬇️ Download](https://github.com/cryptixshadowkernel-org/cryptixshadowkernel.apk/releases/download/v1.0.0/csk4_downloader.apk) |
 
 ---
 
 ## 📖 About
 
-**Cryptix Shadow Kernel** is a powerful Android APK designed for:
-
-- ⚡ **Performance Boost** — Optimize your device for maximum speed
-- 🎮 **Gaming Mode** — Reduce lag and improve frame rates
-- 🔋 **Battery Saver** — Extend battery life with smart tuning
-- 🛡️ **Security Enhancements** — Kernel-level protection
-- 🎨 **Custom Themes** — Personalize your device
+| APK | Purpose |
+|-----|---------|
+| 🛍️ **BASIM_STORE** | E-commerce store app (WebView based) |
+| 🛡️ **BASIM_STORE_ADMIN** | Admin panel for Basim Store |
+| ⚙️ **CSK4_ADMIN** | CSK4 Admin utility app |
+| 💬 **CSK4_CHAT** | Real-time chat application |
+| 📥 **csk4_downloader** | File downloader utility |
 
 ---
 
@@ -35,49 +46,49 @@
 | Requirement | Details |
 |-------------|---------|
 | **Android Version** | 8.0 (Oreo) or higher |
-| **Storage** | 20 MB free space |
-| **Root** | Not required (but recommended for full features) |
-| **Architecture** | ARM64 / ARMv7 |
+| **Storage** | 50 MB free space |
+| **Internet** | Required for web-based apps |
 
 ---
 
-## 🚀 Installation
+## 🚀 Installation Guide
 
-1. **Download** the APK from the link above.
-2. **Enable** "Install from Unknown Sources" in your phone settings:
+1. **Download** the APK you want from the table above or from the [website](https://cryptixshadowkernel-org.github.io/cryptixshadowkernel.apk/).
+2. **Enable** "Install from Unknown Sources":
    - Settings → Security → Unknown Sources ✅
 3. **Open** the downloaded APK file.
-4. **Tap** "Install".
-5. **Launch** the app and enjoy!
+4. **Tap** "Install" and wait.
+5. **Launch** the app.
+
+---
+
+## 🔗 Quick Links
+
+| Link | URL |
+|------|-----|
+| 🌐 **Website** | [cryptixshadowkernel-org.github.io/cryptixshadowkernel.apk](https://cryptixshadowkernel-org.github.io/cryptixshadowkernel.apk/) |
+| 📦 **All Releases** | [github.com/cryptixshadowkernel-org/cryptixshadowkernel.apk/releases](https://github.com/cryptixshadowkernel-org/cryptixshadowkernel.apk/releases) |
+| 🐛 **Report Bug** | [Open an Issue](https://github.com/cryptixshadowkernel-org/cryptixshadowkernel.apk/issues) |
 
 ---
 
 ## ⚠️ Disclaimer
 
-> This APK is provided **as-is** for educational and personal use only.
-> The developer is **not responsible** for any damage, data loss, or issues caused by improper usage.
+> These APKs are provided **as-is** for educational and personal use only.
+> The developer is **not responsible** for any damage or data loss.
 > Use at your own risk.
-
----
-
-## 🐛 Bug Reports & Support
-
-Found a bug? Have a suggestion?
-
-- 📧 **Email:** cryptixshadowkernel@example.com
-- 🐙 **GitHub Issues:** [Open an Issue](https://github.com/YOUR-USERNAME/cryptixshadowkernel/issues)
 
 ---
 
 ## 📜 License
 
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+MIT License — see [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🌟 Show Your Support
+## 🌟 Support
 
-If you like this APK, please:
+If you like these APKs:
 
 - ⭐ **Star** this repository
 - 🍴 **Fork** it
@@ -87,5 +98,5 @@ If you like this APK, please:
 
 <p align="center">
   <b>Made with ❤️ by CSK Developer</b><br>
-  <i>© 2026 Cryptix Shadow Kernel. All rights reserved.</i>
+  <i>© 2026 Cryptix Shadow Kernel</i>
 </p>
